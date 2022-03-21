@@ -16,6 +16,14 @@ h1 {
   font-weight: 900;
 }
 
+h2 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3rem;
+
+}
+
 h3 {
   font-family: "Montserrat";
   font-weight: 900;
@@ -73,5 +81,24 @@ p {
 
 .feature-box {
   text-align: center;
-  padding: 5;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+
+/* Testimonial Section */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
 }
