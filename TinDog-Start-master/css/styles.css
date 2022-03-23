@@ -115,8 +115,21 @@ p {
   margin: 20px 20px 50px;
 }
 
-/* Card */
+/* Pricing*/
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.align {
+  margin-bottom: 57px;
+}
 
 .card {
   height: 100%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
