@@ -114,3 +114,9 @@ p {
 
   margin: 20px 20px 50px;
 }
+
+/* Card */
+
+.card {
+  height: 100%;
+}
