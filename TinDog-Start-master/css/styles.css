@@ -1,5 +1,6 @@
 body {
   font-family: Montserrat;
+  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,6 +27,7 @@ p {
 #title {
   background-color: #ff4c68;
   color: #fff;
+  text-align: left;
 }
 
 .container-fluid {
@@ -78,7 +80,6 @@ p {
 }
 
 .feature-box {
-  text-align: center;
   padding: 5%;
 }
 
@@ -93,7 +94,6 @@ p {
 
 /* Testimonial Section */
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
@@ -116,7 +116,6 @@ p {
 /* Press */
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -128,7 +127,6 @@ p {
 /* Pricing*/
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .price-text {
@@ -161,7 +159,6 @@ p {
   background-color: #ff4c68;
   color: #fff;
   padding: 7% 15%;
-  text-align: center;
 }
 
 .cta-heading {
@@ -174,7 +171,6 @@ p {
 /* Footer */
 #footer {
   padding: 7% 15%;
-  text-align: center;
 }
 
 .social-icon {
