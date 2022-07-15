@@ -5,7 +5,21 @@ for (var i = 0; i < numberOfButtons; i++) {
 
   var buttonInnerHTML = this.innerHTML;
 
-  switch (buttonInnerHTML) {
+    makeSound(buttonInnerHTML);
+
+  });
+}
+
+
+document.addEventListener("keydown", function(event) {
+
+  makeSound(event.key);
+
+})
+
+function makeSound(key) {
+
+  switch (key) {
 
     case "w":
     
@@ -49,7 +63,4 @@ for (var i = 0; i < numberOfButtons; i++) {
 
   }
 
-  });
 }
-
-
